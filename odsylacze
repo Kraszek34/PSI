@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odsyłacze,odnośniki</title>
+</head>
+<body>
+    <p>Zadaniem odsyłaczy jest utworzenie połączenia umożliwiającego przejście do innej strony internetowej, podstrony lub pliku.</p>
+    <p>Rozróżniamy:</p>
+    <ul>
+        <li><mark>Odsyłacze abosolutne</mark> - do adresu internetowego w postaci formatu URL.</li>
+        <li><mark>Odsyłacze względne</mark>  - do zasobu określonego ścieżką dostępu.</li>
+    </ul>
+    <p>Znacznikiem odsyłacza jest &lt;a &gt;</p>
+    <p>Przykład Odsyłacza absolutnego: <a href="http://wsip.pl">Wydawnictwa Szkolne i pedagogiczne</a></p>
+    <p>Przykład Odsyłacza względnego: <a href="E:\psi\zad psi\zadanietabela.html">Tabela</a></p>
+    <p><em>Znacznik &lt;nav&gt; &gt; treść &lt;nav&gt;
+        (ten znacznik reprezentuje sekcje strony która zawiera odnośniki nawigacyjne do innych stron albo do określonych fragmentów na tej stronie. Nie wszystkie linki na stronie powinny być umieszczone w tym znaczniku, został on przewidziany przede wsystkim do oznaczenia podstawowej nawigacji witryny.) </em></p>
+    <b> Przydatne linki</b>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Strona startowa</a></li>
+            <li><a href="index2.html">Spis treści</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
